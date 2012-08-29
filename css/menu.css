@@ -1,0 +1,37 @@
+ body{
+	background:url(../images/bg.jpg);
+	height:800px;
+}
+
+#container{
+	width:800px;
+	height:400px;
+	margin:50px auto;
+	background-color:#FFF;
+	border:1px solid #999;
+}
+
+
+ul#nav {
+    position: fixed;
+    top: 10px;
+    left: 0px;
+	margin: 0px;
+    padding: 0px;
+    list-style: none;
+    z-index:9999;
+}
+ul#nav li {width: 59px;}
+ul#nav li a {
+    display: block;
+    width: 91px;
+    height: 58px;
+	margin-left: -2px;
+}
+ul#nav .home a {background-image: url(../images/icon-home.png);}
+ul#nav .about a {background-image: url(../images/icon-about.png);}
+ul#nav .photos a {background-image: url(../images/icon-photos.png);}
+ul#nav .process a {background-image: url(../images/icon-process.png);}
+ul#nav .caffenol a {background-image: url(../images/icon-caffenol.png);}
+ul#nav .contact a {background-image: url(../images/icon-contact.png);}
+
